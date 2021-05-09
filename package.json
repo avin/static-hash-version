@@ -28,7 +28,7 @@
     "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx",
     "prebuild": "npm run clean",
     "build": "tsc",
-    "prepublish_NONACTIVE": "npm run build",
+    "prepublish": "npm run build",
     "clean": "rimraf dist"
   },
   "devDependencies": {
